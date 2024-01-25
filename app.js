@@ -1,3 +1,4 @@
+const express = require("express");
 import { WebSocketServer } from 'ws';
 import { WebSocket } from "ws";
 import { randomBytes } from "crypto";
