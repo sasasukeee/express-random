@@ -1,19 +1,16 @@
 {
-  "name": "express-hello-world",
+  "name": "your-package",
   "version": "1.0.0",
-  "description": "Express Hello World on Render",
-  "main": "app.js",
-  "repository": "https://github.com/render-examples/express-hello-world",
-  "author": "Render Developers",
-  "license": "MIT",
-  "private": false,
+  "description": "Your package description",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node app.js"
+    "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.18.2"
-  },
-  "engines": {
-    "node": ">=14"
+    "crypto": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "https-proxy-agent": "^7.0.2",
+    "ws": "^8.16.0"
   }
 }
